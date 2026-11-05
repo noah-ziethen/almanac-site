@@ -1,0 +1,5 @@
+:root { color-scheme: light dark; }
+body { font: 17px/1.6 system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; }
+h1 { font-size: 2rem; margin-bottom: .25rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+.meta { opacity: .7; }
