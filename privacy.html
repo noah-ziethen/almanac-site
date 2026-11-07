@@ -22,7 +22,11 @@ called "Shopping", creating it if missing, and only reads and changes tasks in t
 <h2>How the data is used and stored</h2>
 <p>This data is used only to show and change the calendar and shopping list on the tablet.
 Events, shopping items, unsent changes and the Google sign-in token are stored in files on the tablet. Data is sent only to Google,
-over encrypted connections.</p>
+over encrypted connections, except for the weather described below.</p>
+<h2>Weather</h2>
+<p>If the user sets a place for the weather, Almanac sends its coordinates to
+<a href="https://open-meteo.com">Open-Meteo</a> to get a forecast. No Google data is sent with
+them. Open-Meteo's own terms and privacy policy apply to that request.</p>
 <h2>Handwriting</h2>
 <p>When the user handwrites text and taps Convert, the pen strokes are sent to Google's
 handwriting recognition service (Google Input Tools) to be turned into text. Almanac does not
